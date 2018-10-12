@@ -6,9 +6,6 @@ import csv
 from tqdm import tqdm
 import pandas as pd
 
-
-import tensorflow
-
 class Pedestrian:
 
     def __init__(self, id_n=1):
@@ -21,6 +18,7 @@ class Pedestrian:
         self.v_x = []
         self.v_y = []
         self.frame = []
+        self.new = []
 
         self.sur_pedestrian_grid = []
         self.sur_vehicle_grid = []
