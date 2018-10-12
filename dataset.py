@@ -7,6 +7,8 @@ from tqdm import tqdm
 import pandas as pd
 
 
+import tensorflow
+
 class Pedestrian:
 
     def __init__(self, id_n=1):
